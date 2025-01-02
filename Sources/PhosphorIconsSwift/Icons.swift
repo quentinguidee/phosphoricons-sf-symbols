@@ -1,6 +1,6 @@
 import SwiftUI
 
-public enum PhIcons: String {
+public enum PhIcon: String {
     case `acorn` = "acorn"
     case `addressBookTabs` = "address-book-tabs"
     case `addressBook` = "address-book"
@@ -1513,7 +1513,14 @@ public enum PhIcons: String {
     case `yarn` = "yarn"
     case `yinYang` = "yin-yang"
     case `youtubeLogo` = "youtube-logo"
+
     public var icon: Image {
         Image(self.rawValue, bundle: .module)
+    }
+}
+
+public struct PhIcons {
+    public static func fromName(_ name: String) -> Image {
+        Image(name, bundle: .module)
     }
 }
