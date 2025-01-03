@@ -16,3 +16,5 @@ Notes:
 
 This repository is licensed under the MIT License, and uses assets from [phosphor-icons/core](https://github.com/phosphor-icons/core), also under the MIT License. See [LICENSE.md](./LICENSE.md) for more details.
 
+[SwiftDraw](https://github.com/swhitty/SwiftDraw), licensed under the [zlib License](https://github.com/swhitty/SwiftDraw/blob/main/LICENSE.txt) was also used to generate icons.
+
