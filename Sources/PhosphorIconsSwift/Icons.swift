@@ -762,6 +762,7 @@ public enum PhIcon: String {
     case `headphones` = "headphones"
     case `headset` = "headset"
     case `heartBreak` = "heart-break"
+    case `heartFill` = "heart-fill"
     case `heartHalf` = "heart-half"
     case `heartStraightBreak` = "heart-straight-break"
     case `heartStraight` = "heart-straight"
