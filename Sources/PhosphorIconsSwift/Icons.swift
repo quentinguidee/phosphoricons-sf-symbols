@@ -1515,12 +1515,14 @@ public enum PhIcon: String {
     case `yinYang` = "yin-yang"
     case `youtubeLogo` = "youtube-logo"
 
+    @available(macOS 10.15, *)
     public var icon: Image {
         Image(self.rawValue, bundle: .module)
     }
 }
 
 public struct PhIcons {
+    @available(macOS 10.15, *)
     public static func fromName(_ name: String) -> Image {
         Image(name, bundle: .module)
     }
